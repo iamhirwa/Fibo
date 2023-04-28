@@ -1,0 +1,79 @@
+*{
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+    color: white;
+}
+body{
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#dialogboxhead{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dialogboxbody{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+#dialogboxfoot{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dialogbox{
+    display: flex;
+    /* gap: 20px; */
+    flex-direction: column;
+}
+.genediv{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.genediv input{
+    outline: none;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    color: teal;
+}
+button{
+    background: #333;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(169, 110, 0);
+    font-weight: 600;
+    box-shadow: 0 10px 10px -3px #33333397;
+}
+.container h1{
+    text-transform: capitalize;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    /* color: transparent; */
+    background-clip: text;
+    background: linear-gradient(t0 bottom,white,cyan);
+}
